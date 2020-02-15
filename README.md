@@ -4,13 +4,15 @@ This is a tool to visulaize the 2D sky projection of groups and associations dis
 Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 
- * Visulaizing galaxy groups: skyplot_group.py
+ * Visulaizing galaxy groups: **skyplot_group.py**
    
    - How to run:
-            $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50
+   
+             $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50
     
    - How to get help: 
-            $ python skyplot_group.py -h 
+   
+             $ python skyplot_group.py -h 
     
 
  
