@@ -160,6 +160,14 @@ Associations (supergroups) are enseble of galaxy groups that are within the firs
 
 In this plot, each point represents a group and the big circles are the halos of *galaxy group associations*. The radius of each circle is the projected first turnaround radius, of the corresponding halo.
 
+
+Symbols are:
+
+ 1) Filled points: groups in super-groups
+ 2) Open point: groups not in any super-group
+ 3) filled boxes: single galaxies associated to a super groups
+ 4) crosses (x) : single galaxies not associated to anything
+
 By clicking on each point you can see the group projected radius resented by R2t. For example, in the above plot, the red star shows the center of the Virgo cluster and dhashed red circle is its projected second turnaround radius. 
 
 The code uses the following formulation to calculate first turnaround radii, r1t. It uses the Hubble distance for those groups with no available distance information. 
@@ -167,7 +175,20 @@ The code uses the following formulation to calculate first turnaround radii, r1t
                 r2t = sqrt(1.5)*R_2t
                 r1t = 3.5*r2t
 
+All other features of **skyplot_supergroup.py** are very similar to those of **skyplot_group.py**.
 
+By clicking on each point, you can get some relevant information in the terminal.
+
+![selected_suergroup](https://user-images.githubusercontent.com/13570487/74596689-d5356800-500f-11ea-8085-27d4a1f24fef.png)
+
+
+Here is the meaning of the numeric flags:
+
+ 1) flag = 5: Super-group head
+ 2) flag = 4: group in a supergroup
+ 3) flag = 3: single galaxy in a supergroup
+ 4) flag = 2: single group NOT in any supergroup
+ 5) flag = 0: single galaxy NOT in any group or super-group
 
  
  
