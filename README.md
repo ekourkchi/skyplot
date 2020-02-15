@@ -121,6 +121,19 @@ In this case the projection is automatically detected to be on a SGX-SGY plane.
   
                $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=20 -w 15 -m 1000 -x 2000
                
-   Here, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate system and its size were specified.
+   were, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate system and its size were specified.
    
+ 12) You can also set the center and thickness in the line-of-sight of the view. So, for example, if you are looking at an SGX-SGY view with —SGX=0 —SGY=8 -w 16 then maybe you want to look in the SGZ direction centered at -8 and thickness 4. The following commands satify your conditions
+ 
+               $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=0 --SGY=8 -w 16 --SGZ=-8 --ZT=4
 
+ When you specify the thickness parameter (**--ZT** above), you don't need to specify projection value. If you happen to specify the projection direction and it's incompatible with the specified projection, it ignores the thickness parameter. **Note:** Command line is NOT sensitive to the given order of parameters.
+
+ This is the list all thickness parameters you can use.
+ 
+ 
+                --XT=XT       X-axis thickness (Mpc)
+                --YT=YT       Y-axis thickness (Mpc)
+                --ZT=ZT        Z-axis thickness (Mpc)
+                                
+ **Useful feature:** When you are in Cartesian mode, you can see SGX-SGY-SGZ coordinates of the selected object on the left side on the plot in the coordinate box.
