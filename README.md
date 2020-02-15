@@ -112,3 +112,9 @@ In this case the projection is automatically detected to be on a SGX-SGY plane.
                 20 - SGZ-SGX                      
                 30 - SGZ-SGY
 
+  **Note**: You can set either the velocity range or the center of the coordinate system when working in Cartesian coordinates. Using a combination of both is also possible. See this example:
+  
+  
+               $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=20 -w 15 -m 1000 -x 2000
+               
+   Here, Vmin=1000 and Vmax=2000, while the center of the coordinate system and its size were specified.
