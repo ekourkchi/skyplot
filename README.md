@@ -79,6 +79,36 @@ The following diagrams is the output of the code for the Virgo cluster, which is
  
 ![terminal](https://user-images.githubusercontent.com/13570487/74585318-a9c36680-4f98-11ea-8bae-ec92acc95da5.png)
  
- 9) If the chosen galaxy is in a group, a new window pops out and dispayes the radial velocity distribution of all group members. 
+ 9) If the chosen galaxy is in a group, a new window pops out and dispayes the radial velocity distribution of all group members. See the following example for the velocity distribution of galaxies in the group whose brightest galaxy is PGC 42734. Dashed black line is the average radial velocity and red otted lines denote the 1-sigma borders. *d* is the evaluated average distance of the group. 
 
 ![Velocity_Distribution](https://user-images.githubusercontent.com/13570487/74585332-be9ffa00-4f98-11ea-8fb6-11f79e8ef4d6.png)
+
+ 10) If you use the **-G** command flag, you would be able to overplot the 6.8 degree circle around Virgo and also the divider line. Using this flag for other regions dose not have any effect. See the following plot.
+ 
+![Virgo1](https://user-images.githubusercontent.com/13570487/74585632-d9c03900-4f9b-11ea-9af6-5a53ad5e84c6.jpeg)
+
+ 11) Skyplot enables you to make plots in Cartesian coordinates. Skyplot needs to use distances to calculate SGX, SGY and SGZ, and for most cases it uses some sort of measured distances. Either galaxies have direct measured distances or they have some associated distances through the group they belong to. If there is no measured distance available, it uses Hubble distances. You can run *skyplot_group* and *skyplot_supergroup* with approporiate flags to generate plots in SGX-SGY-SGZ coordinates. For example
+ 
+
+               $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  -x 3500
+               
+plots everything up to Vls=3500 km/s in SGX-SGY system by default. Also, you can specify the center of plot and its size. In the folloing case case **-w 15** means 15 Mpc.
+In this case the projection is automatically detected to be on a SGX-SGY plane.
+   
+   
+               $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=15 -w 15
+   
+   If you specify all tree SGX, SGY and SGZ coordinates of the center, you need to use -j flag to specify your desired projection. This is explained below.
+   
+               $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  -m 1000 -x 2000 -j 3
+                  
+  The options you can use after -j are as follows:
+  
+                1  - SGX-SGY                      
+                2  - SGX-SGZ
+                3  - SGY-SGZ                      
+              
+                10 - SGY-SGX
+                20 - SGZ-SGX                      
+                30 - SGZ-SGY
+
