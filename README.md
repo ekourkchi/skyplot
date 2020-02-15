@@ -87,7 +87,11 @@ The following diagrams is the output of the code for the Virgo cluster, which is
  
 ![Virgo1](https://user-images.githubusercontent.com/13570487/74585632-d9c03900-4f9b-11ea-9af6-5a53ad5e84c6.jpeg)
 
- 11) Skyplot enables you to make plots in Cartesian coordinates. Skyplot needs to use distances to calculate SGX, SGY and SGZ, and for most cases it uses some sort of measured distances. Either galaxies have direct measured distances or they have some associated distances through the group they belong to. If there is no measured distance available, it uses Hubble distances. You can run *skyplot_group* and *skyplot_supergroup* with approporiate flags to generate plots in SGX-SGY-SGZ coordinates. For example
+ 11) Skyplot enables you to make plots in Cartesian coordinates. Skyplot needs to use distances to calculate SGX, SGY and SGZ, and for most cases it uses some sort of measured distances. Either galaxies have direct measured distances or they have some associated distances through the group they belong to. If there is no measured distance available, it uses Hubble distances. 
+ 
+![skyplot_demo](https://user-images.githubusercontent.com/13570487/74585771-bac2a680-4f9d-11ea-87c8-ed7857f16474.png)
+
+ You can run *skyplot_group* and *skyplot_supergroup* with approporiate flags to generate plots in SGX-SGY-SGZ coordinates. For example
  
 
                $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  -x 3500
@@ -119,4 +123,4 @@ In this case the projection is automatically detected to be on a SGX-SGY plane.
                
    Here, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate system and its size were specified.
    
-![skyplot_demo](https://user-images.githubusercontent.com/13570487/74585771-bac2a680-4f9d-11ea-87c8-ed7857f16474.png)
+
