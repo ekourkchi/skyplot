@@ -4,7 +4,7 @@ Tools to visulaize the 2D sky projection of groups and associations discusses in
 Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 
-## Visulaizing galaxy groups: **skyplot_group.py**
+## Visulaizing Galaxy Groups: **skyplot_group.py**
    
    - How to run (example):
    
@@ -51,7 +51,12 @@ Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 ### Demo (Virgo cluster SGL=102 and SGB=-2)
 
-The following diagrams is the output of the code for the Virgo cluster, which is the largest group at the center and color coded in yellow. All groups are color coded based on their average radial velocities, i.e. V_ls. The legend on the right shows that color code. The box on the left shows the coordinate of the sky where the mosue pointer is. Each point is a galaxy and dashed circles represent the 2D projected border of groups. Clicking on each galaxy prints out information about the galaxy its associtaed galaxy in terminal.
+The following diagrams is the output of the code for the Virgo cluster, using the following command:
+
+             $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50
+
+
+Virgo is the largest group at the center and color coded in yellow. All groups are color coded based on their average radial velocities, i.e. V_ls. The legend on the right shows that color code. The box on the left shows the coordinate of the sky where the mosue pointer is. Each point is a galaxy and dashed circles represent the 2D projected border of groups. Clicking on each galaxy prints out information about the galaxy its associtaed galaxy in terminal.
  
 ![Virgo_group](https://user-images.githubusercontent.com/13570487/74584913-92827a00-4f94-11ea-8b6a-203f7587bb13.png)
  
@@ -134,6 +139,13 @@ In this case the projection is automatically detected to be on a SGX-SGY plane.
  
                 --XT=XT       X-axis thickness (Mpc)
                 --YT=YT       Y-axis thickness (Mpc)
-                --ZT=ZT        Z-axis thickness (Mpc)
+                --ZT=ZT       Z-axis thickness (Mpc)
                                 
  **Useful feature:** When you are in Cartesian mode, you can see SGX-SGY-SGZ coordinates of the selected object on the left side on the plot in the coordinate box.
+ 
+ 
+## Visulaizing Galaxy Groups Associations: **skyplot_group.py** 
+
+Associations (supergroups) are enseble of galaxy groups that are within the first turnaround radius of the
+ 
+ 
