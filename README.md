@@ -149,7 +149,7 @@ In this case the projection is automatically detected to be on a SGX-SGY plane.
 Associations (supergroups) are enseble of galaxy groups that are within the first turnaround radius of the enclosed mass. For more details on the physical meanings and definitions perlse refer to Kourkchi and Tully (2017, ApJ, 843, 16): http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 
-   - How to run (example):
+   - How to run (example). The following diagrams is the output of the code for the Virgo cluster, using this command:
 
    
                 $ python skyplot_supergroup.py -f all.iter.2.v41.supergroup -c supergalactic -a 102 -d -2 w 50
@@ -158,7 +158,14 @@ Associations (supergroups) are enseble of galaxy groups that are within the firs
 ![Virgo_supergroup](https://user-images.githubusercontent.com/13570487/74596491-25f79180-500d-11ea-9c23-d1a81d743ebc.png)
 
 
+In this plot, each point represents a group and the big circles are the halos of *galaxy group associations*. The radius of each circle is the projected first turnaround radius, of the corresponding halo.
 
+By clicking on each point you can see the group projected radius resented by R2t. For example, in the above plot, the red star shows the center of the Virgo cluster and dhashed red circle is its projected second turnaround radius. 
+
+The code uses the following formulation to calculate first turnaround radii, r1t. It uses the Hubble distance for those groups with no available distance information. 
+
+                r2t = sqrt(1.5)*R_2t
+                r1t = 3.5*r2t
 
 
 
