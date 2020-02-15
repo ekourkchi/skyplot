@@ -51,7 +51,7 @@ Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 ### Demo (Virgo cluster SGL=102 and SGB=-2)
 
-The following diagrams is the output of the code for the Virgo cluster, which is the largest group at the center and color coded in yellow. All groups are color coded based on their average radial velocities, i.e. V_ls. The legend on the right shows that color code. The box on the left shows the coordinate of the sky where the mosue pointer is. 
+The following diagrams is the output of the code for the Virgo cluster, which is the largest group at the center and color coded in yellow. All groups are color coded based on their average radial velocities, i.e. V_ls. The legend on the right shows that color code. The box on the left shows the coordinate of the sky where the mosue pointer is. Each point is a galaxy and dashed circles represent the 2D projected border of groups. Clicking on each galaxy prints out information about the galaxy its associtaed galaxy in terminal.
  
 ![Virgo_group](https://user-images.githubusercontent.com/13570487/74584913-92827a00-4f94-11ea-8b6a-203f7587bb13.png)
  
@@ -60,14 +60,25 @@ The following diagrams is the output of the code for the Virgo cluster, which is
 
  1) If you click on the color bars on the left, you can turn on/off the colors.
  
- 2) On the horizontal bar above the plot, you can interactively manually enter your desired velocity limits. This feature can also be used with the color bar feature to even have more flexibility. After entering your values, press the *Set* botton to see the effect. Press *Clear* to clear the text cells and enter new values. Press *Show all* to reset the values (i.e. showing all galaxies, groups).
+ 2) On the horizontal bar above the plot, you can interactively manually enter your desired velocity limits. This feature can also be used with the color bar feature to even have more flexibility. After entering your values, press the **set** botton to see the effect. Press *Clear* to clear the text cells and enter new values. Press *Show all* to reset the values (i.e. showing all galaxies, groups).
  
- 3) *show all* and *set* buttons can be used alternatively to either display all the objects or to go back to the initial velocity setup.
+ 3) **show all** and **set** buttons can be used alternatively to either display all the objects or to go back to the initial velocity setup.
  
  4) You can also enter radial velocity limits on the command line using **-m** and **-x** flags. See the following examples to only display galaxy with radial velocities between 1,000 and 2,000 km/s:
  
               $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50 -m 1000 -x 2000
 
+              
+ 5) Use the yellow button in the left box **(Reset View)** to go back the view that was originally set in the command line
  
+ 6) Use the middle mouse scroll wheel on the plot for zooming in/out.
+ 
+ 7) Use the yes/no box in the buttom right corner to change the color scheme. 
+ 
+ 8) Click on each point (galaxy) to get some relevant information in terminal.
+ 
+![terminal](https://user-images.githubusercontent.com/13570487/74585318-a9c36680-4f98-11ea-8bae-ec92acc95da5.png)
+ 
+ 9) Clicking on each galaxy 
 
-
+![Velocity_Distribution](https://user-images.githubusercontent.com/13570487/74585332-be9ffa00-4f98-11ea-8fb6-11f79e8ef4d6.png)
