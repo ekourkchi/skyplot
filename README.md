@@ -49,6 +49,13 @@ Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
                   -G                    Plot Virgo Border
 
 
+### Demo (Virgo cluster SGL=102 and SGB=-2)
+
+The following diagrams is the output of the code for the Virgo cluster, which is the largest group at the center and color coded in yellow. All groups are color coded based on their average radial velocities, i.e. V_ls. The legend on the right shows that color code. The box on the left shows the coordinate of the sky where the mosue pointer is. 
+ 
 ![Virgo_group](https://user-images.githubusercontent.com/13570487/74584913-92827a00-4f94-11ea-8b6a-203f7587bb13.png)
  
- 
+
+#### Features:
+
+
