@@ -75,10 +75,10 @@ The following diagrams is the output of the code for the Virgo cluster, which is
  
  7) Use the yes/no box in the buttom right corner to change the color scheme. 
  
- 8) Click on each point (galaxy) to get some relevant information in terminal.
+ 8) Click on each point (galaxy) to chose it and get some relevant information in the terminal. *pgc* is the galaxy ID. *flag* equals 1 for galaxies in a group and 0 for a single galaxy. *ra*, *dec* *SGL* and *SGB* are the Equatorial and Supergalactic coordinates of the chosen galaxy. *Ks* is the magnitude, *Vls* is the radial velicity in km/s, *dcf2* is the distance in Mpc, *mDist* is the average group distance and *mDistErr* is the uncertainty of the average group distance. *nest* is the pgc ID of the most luminous galaxy in the group. *objname* is the galaxy other name.
  
 ![terminal](https://user-images.githubusercontent.com/13570487/74585318-a9c36680-4f98-11ea-8bae-ec92acc95da5.png)
  
- 9) Clicking on each galaxy 
+ 9) If the chosen galaxy is in a group, a new window pops out and dispayes the radial velocity distribution of all group members. 
 
 ![Velocity_Distribution](https://user-images.githubusercontent.com/13570487/74585332-be9ffa00-4f98-11ea-8fb6-11f79e8ef4d6.png)
