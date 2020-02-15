@@ -117,4 +117,6 @@ In this case the projection is automatically detected to be on a SGX-SGY plane.
   
                $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=20 -w 15 -m 1000 -x 2000
                
-   Here, Vmin=1000 and Vmax=2000, while the center of the coordinate system and its size were specified.
+   Here, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate system and its size were specified.
+   
+![skyplot_demo](https://user-images.githubusercontent.com/13570487/74585771-bac2a680-4f9d-11ea-87c8-ed7857f16474.png)
