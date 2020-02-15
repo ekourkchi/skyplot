@@ -58,4 +58,16 @@ The following diagrams is the output of the code for the Virgo cluster, which is
 
 #### Features:
 
+ 1) If you click on the color bars on the left, you can turn on/off the colors.
+ 
+ 2) On the horizontal bar above the plot, you can interactively manually enter your desired velocity limits. This feature can also be used with the color bar feature to even have more flexibility. After entering your values, press the *Set* botton to see the effect. Press *Clear* to clear the text cells and enter new values. Press *Show all* to reset the values (i.e. showing all galaxies, groups).
+ 
+ 3) *show all* and *set* buttons can be used alternatively to either display all the objects or to go back to the initial velocity setup.
+ 
+ 4) You can also enter radial velocity limits on the command line using **-m** and **-x** flags. See the following examples to only display galaxy with radial velocities between 1,000 and 2,000 km/s:
+ 
+              $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50 -m 1000 -x 2000
+
+ 
+
 
