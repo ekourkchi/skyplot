@@ -8,9 +8,11 @@ Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
    
    - How to run:
    
+   
              $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50
     
    - How to get help: 
+   
    
              $ python skyplot_group.py -h 
     
