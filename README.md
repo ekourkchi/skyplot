@@ -144,8 +144,23 @@ In this case the projection is automatically detected to be on a SGX-SGY plane.
  **Useful feature:** When you are in Cartesian mode, you can see SGX-SGY-SGZ coordinates of the selected object on the left side on the plot in the coordinate box.
  
  
-## Visulaizing Galaxy Groups Associations: **skyplot_group.py** 
+## Visulaizing Galaxy Groups Associations: **skyplot_supergroup.py** 
 
-Associations (supergroups) are enseble of galaxy groups that are within the first turnaround radius of the
+Associations (supergroups) are enseble of galaxy groups that are within the first turnaround radius of the enclosed mass. For more details on the physical meanings and definitions perlse refer to Kourkchi and Tully (2017, ApJ, 843, 16): http://adsabs.harvard.edu/abs/2017ApJ...843...16K
+
+
+   - How to run (example):
+
+   
+                $ python skyplot_supergroup.py -f all.iter.2.v41.supergroup -c supergalactic -a 102 -d -2 w 50
+
+                
+![Virgo_supergroup](https://user-images.githubusercontent.com/13570487/74596491-25f79180-500d-11ea-9c23-d1a81d743ebc.png)
+
+
+
+
+
+
  
  
