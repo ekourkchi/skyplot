@@ -142,8 +142,7 @@ In this case, the projection is automatically detected to be on an SGX-SGY plane
  When you specify the thickness parameter (**--ZT** above), you don't need to specify the projection direction. If you happen to specify the projection direction and it's incompatible with the specified projection, it ignores the thickness parameter. **Note:** Command line is NOT sensitive to the given order of parameters.
 
  This is the list of all thickness parameters you can use.
-
- 
+   
             --XT=XT       X-axis thickness (Mpc)
             --YT=YT       Y-axis thickness (Mpc)
             --ZT=ZT       Z-axis thickness (Mpc)
