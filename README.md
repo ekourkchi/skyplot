@@ -230,8 +230,7 @@ This is the list of the python packages you need.
             pip install https://www.astro.rug.nl/software/kapteyn/kapteyn-3.0.tar.gz
                 
                 
-   - **tkinter**: This is the heart of the visualization engine.
-   Find more about it here: https://docs.python.org/3/library/tkinter.html
+   - **tkinter**: This is the heart of the visualization engine. Find more about it here: https://docs.python.org/3/library/tkinter.html
    
 
 **Note:** *tkinter* might not be installed using *pip*. So, you need to install it on your system separately. On *Ubuntu*, you can use the following command:
