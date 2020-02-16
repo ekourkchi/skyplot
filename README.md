@@ -204,14 +204,14 @@ This code has been tested using **Python 3.7.6**. For any later python versions,
 
 This is the list of the python packages you need. 
 
- 1) Python main packages:
-   - matplotlib
-   - numpy
-   - optparse
-   - astropy
+ 1) Python main packages:
+   - matplotlib
+   - numpy
+   - optparse
+   - astropy
 
              
- 2) Python external packages. These are not available in the *PyPi* repository and therefore you need to install them manually. 
+ 2) Python external packages. These are not available in the *PyPi* repository and therefore you need to install them manually. 
    - **kapteyn** (get it here: https://www.astro.rug.nl/software/kapteyn/). The latest version for Python 3.x can be installed using *pip* as follow
    
    
@@ -222,15 +222,17 @@ This is the list of the python packages you need.
    - **tkinter**: This is the heart of the visualization engine.
    Find more about it here: https://docs.python.org/3/library/tkinter.html
    
+
 **Note:** *tkinter* might not be installed using *pip*. So, you need to install it on your system separately. On *Ubuntu*, you can use the following command:
 
 
             sudo apt-get install python3-tk
 
    - - - -
- * Credit: Kourkchi and Tully (2017, ApJ, 843, 16), Galaxy Groups Within 3,500 km/s
- * Author: Ehsan Kourkchi <ekourkchi@gmail.com>
- * Feel free to distribute and modify for a better performance
+   
+ * Credit: Kourkchi and Tully (2017, ApJ, 843, 16), Galaxy Groups Within 3,500 km/s
+ * Author: Ehsan Kourkchi <ekourkchi@gmail.com>
+ * Feel free to distribute and modify for a better performance
  
  
  
