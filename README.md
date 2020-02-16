@@ -156,9 +156,9 @@ In this case, the projection is automatically detected to be on an SGX-SGY plane
 Associations (supergroups) are ensembles of galaxy groups that are within the first turnaround radius of the enclosed mass. For more details on the physical meanings and definitions please refer to Kourkchi and Tully (2017, ApJ, 843, 16): http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 
-   - How to run (example). The following diagram is the output of the code for the Virgo cluster, using this command:
+   - How to run (example). The following diagram is the output of the code for the Virgo cluster, using this command:
 
-   
+
             $ python skyplot_supergroup.py -f all.iter.2.v41.supergroup -c supergalactic -a 102 -d -2 w 50
 
                 
