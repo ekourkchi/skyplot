@@ -200,7 +200,7 @@ Here is the meaning of the numeric flags:
  
 ## Dependencies: <a name="dependencies"></a> 
 
-This code has been tested using **Python 3.7.6**. For any later python versions, you may need to adapt a few syntaxes to get all the GUI features to work. 
+This code has been tested using **Python 3.7.6**. For any later python versions, you may need to modify/adjust a few syntaxes to get all the GUI features to work. 
 
 This is the list of the python packages you need. 
 
@@ -214,14 +214,14 @@ This is the list of the python packages you need.
              sudo apt-get install python3-tk
              
  2) Python external packages. These are not available in the *PyPi* repository and therefore you need to install them manually. 
-   - kapteyn (get it here: https://www.astro.rug.nl/software/kapteyn/). The latest version for Python 3.x can be installed using *pip* as follow
+   - **kapteyn** (get it here: https://www.astro.rug.nl/software/kapteyn/). The latest version for Python 3.x can be installed using *pip* as follow
    
    
                 
                 pip install https://www.astro.rug.nl/software/kapteyn/kapteyn-3.0.tar.gz
                 
                 
-   - *tkinter*: This is the heart of the visualization engine.
+   - **tkinter**: This is the heart of the visualization engine.
    Find more about it here: https://docs.python.org/3/library/tkinter.html
    
 **Note:** *tkinter* might not be installed using *pip*. So, you need to install it on your system separately. On *Ubuntu*, you can use the following command:
@@ -229,7 +229,7 @@ This is the list of the python packages you need.
 
                 sudo apt-get install python3-tk
 
- 
+   - - - -
  * Credit: Kourkchi and Tully (2017, ApJ, 843, 16), Galaxy Groups Within 3,500 km/s
  * Author: Ehsan Kourkchi <ekourkchi@gmail.com>
  * Feel free to distribute and modify for a better performance
