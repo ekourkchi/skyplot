@@ -146,8 +146,9 @@ In this case, the projection is automatically detected to be on an SGX-SGY plane
             --XT=XT       X-axis thickness (Mpc)
             --YT=YT       Y-axis thickness (Mpc)
             --ZT=ZT       Z-axis thickness (Mpc)
-                                
- **Useful feature:** When you are in the Cartesian mode, you can see SGX-SGY-SGZ coordinates of the selected object on the left side of the plot in the coordinate box.
+
+
+**Useful feature:** When you are in the Cartesian mode, you can see SGX-SGY-SGZ coordinates of the selected object on the left side of the plot in the coordinate box.
  
  
 ## Visulaizing Galaxy Groups Associations: **skyplot_supergroup.py** <a name="skyplot_supergroup"></a> 
