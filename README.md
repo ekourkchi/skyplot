@@ -12,7 +12,7 @@ Tools to visualize the 2D sky projection of groups and associations discussed in
 Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 Codes to generate the catalogs (*all.iter.2.v41.group* and *all.iter.2.v41.supergroup*) that are used for visualizations, are available in https://github.com/ekourkchi/GalaxyGroups
-The offical catalog is available online at Extragalactic Distance Database (uder *Kourkchi-Tully* groups): http://edd.ifa.hawaii.edu/dfirst.php
+The offical catalog is available online at Extragalactic Distance Database (under *Kourkchi-Tully* table): http://edd.ifa.hawaii.edu/dfirst.php
 
 ![groups_sphere](https://user-images.githubusercontent.com/13570487/74597739-56e1c180-5021-11ea-92a6-9a5b5a6cb89e.png)
 
@@ -57,7 +57,7 @@ The offical catalog is available online at Extragalactic Distance Database (uder
               -u XT, --XT=XT        X-axis thickness (Mpc)
               -v YT, --YT=YT        Y-axis thickness (Mpc)
               -t ZT, --ZT=ZT        Z-axis thickness (Mpc)
-              -G                    Plot Virgo Border
+              -G                    Plot the border of Virgo Cluster
 
 
 ### Demo (Virgo cluster SGL=102 and SGB=-2) <a name="demo"></a>
@@ -90,7 +90,7 @@ Virgo is the largest group at the center and color-coded in yellow. All groups a
  
  6) Use the middle mouse scroll wheel on the plot for zooming in/out.
  
- 7) Use the yes/no box in the bottom right corner to change the color scheme.
+ 7) Use the `yes/no` box in the bottom right corner to change the color scheme.
  
  8) Click on each point (galaxy) to chose it and get some relevant information in the terminal. *pgc* is the galaxy ID. *flag* equals 1 for galaxies in a group and 0 for a single galaxy. *ra*, *dec* *SGL* and *SGB* are the Equatorial and Supergalactic coordinates of the chosen galaxy. *Ks* is the magnitude, *Vls* is the radial velocity in km/s, *dcf2* is the distance in Mpc, *mDist* is the average group distance and *mDistErr* is the uncertainty of the average group distance. *nest* is the pgc ID of the most luminous galaxy in the group. *objname* is the galaxy other name.
 
