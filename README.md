@@ -150,7 +150,8 @@ where, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate sys
             $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=0 --SGY=8 -w 16 --SGZ=-8 --ZT=4
 
  When you specify the thickness parameter (**--ZT** above), you don't need to specify the projection direction. If you happen to specify the projection direction and it's incompatible with the specified projection, it ignores the thickness parameter. 
- 
+
+
 **Note:** Command line is NOT sensitive to the given order of parameters.
 
  This is the list of all thickness parameters you can use.
