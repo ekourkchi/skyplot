@@ -4,10 +4,13 @@ Tools to visulaize the 2D sky projection of groups and associations discusses in
 Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 ## Table of contents
-1. [Visulaizing Galaxy Groups (skyplot_group.py)](#introduction)
+1. [Visulaizing Galaxy Groups (skyplot_group.py)](#skyplot_group)
+2. [Demo (Virgo Cluster)](#demo)
+3. [Features](#features)
+4. [Visulaizing Galaxy Groups Associations (skyplot_supergroup.py)](#skyplot_supergroup)
 
 
-## Visulaizing Galaxy Groups: **skyplot_group.py** <a name="skyplot_group.py"></a>
+## Visulaizing Galaxy Groups: **skyplot_group.py** <a name="skyplot_group"></a>
    
    - How to run (example):
    
@@ -52,7 +55,7 @@ Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
                   -G                    Plot Virgo Border
 
 
-### Demo (Virgo cluster SGL=102 and SGB=-2)
+### Demo (Virgo cluster SGL=102 and SGB=-2) <a name="demo"></a>
 
 The following diagrams is the output of the code for the Virgo cluster, using the following command:
 
@@ -64,7 +67,7 @@ Virgo is the largest group at the center and color coded in yellow. All groups a
 ![Virgo_group](https://user-images.githubusercontent.com/13570487/74584913-92827a00-4f94-11ea-8b6a-203f7587bb13.png)
  
 
-#### Features:
+#### Features: <a name="features"></a>
 
  1) If you click on the color bars on the left, you can turn on/off the colors.
  
@@ -147,7 +150,7 @@ In this case the projection is automatically detected to be on a SGX-SGY plane.
  **Useful feature:** When you are in Cartesian mode, you can see SGX-SGY-SGZ coordinates of the selected object on the left side on the plot in the coordinate box.
  
  
-## Visulaizing Galaxy Groups Associations: **skyplot_supergroup.py** 
+## Visulaizing Galaxy Groups Associations: **skyplot_supergroup.py** <a name="skyplot_supergroup"></a> 
 
 Associations (supergroups) are enseble of galaxy groups that are within the first turnaround radius of the enclosed mass. For more details on the physical meanings and definitions perlse refer to Kourkchi and Tully (2017, ApJ, 843, 16): http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
