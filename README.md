@@ -1,10 +1,10 @@
 ## Table of contents
-1. [Introduction] (#intro)
-1. [Visulaizing Galaxy Groups (skyplot_group.py)](#skyplot_group)
-2. [Demo (Virgo Cluster)](#demo)
-3. [Features](#features)
-4. [Visulaizing Galaxy Groups Associations (skyplot_supergroup.py)](#skyplot_supergroup)
-5. [Dependencies](#dependencies)
+1. [Introduction](#intro)
+2. [Visulaizing Galaxy Groups (skyplot_group.py)](#skyplot_group)
+3. [Demo (Virgo Cluster)](#demo)
+4. [Features](#features)
+5. [Visulaizing Galaxy Groups Associations (skyplot_supergroup.py)](#skyplot_supergroup)
+6. [Dependencies](#dependencies)
 
 # skyplot <a name="intro"></a>
 Tools to visualize the 2D sky projection of groups and associations discussed in *Kourkchi and Tully (2017, ApJ, 843, 16)*, **Galaxy Groups Within 3,500 km/s**. 
