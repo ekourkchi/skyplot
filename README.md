@@ -142,8 +142,8 @@ In this case, the projection is automatically detected to be on an SGX-SGY plane
   **Note**: You can set either the velocity range or the center of the coordinate system when working in Cartesian coordinates. Using a combination of both is also possible. See this example:
  
             $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=20 -w 15 -m 1000 -x 2000
-               
-   were, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate system and its size were specified.
+
+where, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate system and its size were specified.
  
  12) You can also set the center and thickness in the line-of-sight of the view. So, for example, if you are looking at an SGX-SGY view with —SGX=0 —SGY=8 -w 16 then maybe you want to look in the SGZ direction centered at -8 and thickness 4. The following command satisfies your conditions
  
