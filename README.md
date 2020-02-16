@@ -3,7 +3,7 @@ Tools to visualize the 2D sky projection of groups and associations discussed in
 
 Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
-![groups_sphere](https://user-images.githubusercontent.com/13570487/74597701-b390ac80-5020-11ea-9a7f-c6ab7529604f.png)
+![groups_sphere](https://user-images.githubusercontent.com/13570487/74597722-0bc7ae80-5021-11ea-80fb-95ee81fc14a3.png)
 
 
 ## Table of contents
