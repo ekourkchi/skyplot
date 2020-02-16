@@ -226,9 +226,7 @@ This is the list of the python packages you need.
  2) Python external packages. These are not available in the *PyPi* repository and therefore you need to install them manually. 
  
    - **kapteyn** (get it here: https://www.astro.rug.nl/software/kapteyn/). The latest version for Python 3.x can be installed using *pip* as follow
-   
-   
-                
+ 
             pip install https://www.astro.rug.nl/software/kapteyn/kapteyn-3.0.tar.gz
                 
                 
