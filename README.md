@@ -2,6 +2,8 @@
 Tools to visualize the 2D sky projection of groups and associations discussed in *Kourkchi and Tully (2017, ApJ, 843, 16)*, **Galaxy Groups Within 3,500 km/s**. 
 
 Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
+Codes to generate the catalogs (*all.iter.2.v41.group* and *all.iter.2.v41.supergroup*) that are used for visualizations, are available in https://github.com/ekourkchi/GalaxyGroups
+The offical catalog is available online at Extragalactic Distance Database (uder *Kourkchi-Tully* groups): http://edd.ifa.hawaii.edu/dfirst.php?
 
 ![groups_sphere](https://user-images.githubusercontent.com/13570487/74597739-56e1c180-5021-11ea-92a6-9a5b5a6cb89e.png)
 
