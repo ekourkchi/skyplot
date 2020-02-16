@@ -81,12 +81,12 @@ Virgo is the largest group at the center and color-coded in yellow. All groups a
  
             $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50 -m 1000 -x 2000
 
-              
+
  5) Use the yellow button in the left box **(Reset View)** to go back the view that was originally set in the command line
  
  6) Use the middle mouse scroll wheel on the plot for zooming in/out.
  
- 7) Use the yes/no box in the bottom right corner to change the color scheme. 
+ 7) Use the yes/no box in the bottom right corner to change the color scheme.
  
  8) Click on each point (galaxy) to chose it and get some relevant information in the terminal. *pgc* is the galaxy ID. *flag* equals 1 for galaxies in a group and 0 for a single galaxy. *ra*, *dec* *SGL* and *SGB* are the Equatorial and Supergalactic coordinates of the chosen galaxy. *Ks* is the magnitude, *Vls* is the radial velocity in km/s, *dcf2* is the distance in Mpc, *mDist* is the average group distance and *mDistErr* is the uncertainty of the average group distance. *nest* is the pgc ID of the most luminous galaxy in the group. *objname* is the galaxy other name.
  
@@ -95,11 +95,11 @@ Virgo is the largest group at the center and color-coded in yellow. All groups a
  9) If the chosen galaxy is in a group, a new window pops out and displays the radial velocity distribution of all group members. See the following example for the velocity distribution of galaxies in the group whose brightest galaxy is PGC 42734. The dashed black line is the average radial velocity and red dotted lines denote the 1-sigma borders. *d* is the evaluated average distance of the group. 
 
 ![Velocity_Distribution](https://user-images.githubusercontent.com/13570487/74585332-be9ffa00-4f98-11ea-8fb6-11f79e8ef4d6.png)
-
+ 
  10) If you use the **-G** command flag, you would be able to overplot the 6.8-degree circle around Virgo and also the divider line. Using this flag for other regions does not have any effect. See the following plot.
  
 ![Virgo1](https://user-images.githubusercontent.com/13570487/74585632-d9c03900-4f9b-11ea-9af6-5a53ad5e84c6.jpeg)
-
+ 
  11) Skyplot enables you to make plots in Cartesian coordinates. Skyplot needs to use distances to calculate SGX, SGY, and SGZ, and for most cases, it uses some sort of measured distances. Either galaxies have directly measured distances or they have some associated distances through the group they belong to. If there is no measured distance available, it uses Hubble distances. 
  
 ![skyplot_demo](https://user-images.githubusercontent.com/13570487/74585771-bac2a680-4f9d-11ea-87c8-ed7857f16474.png)
@@ -132,8 +132,8 @@ In this case, the projection is automatically detected to be on an SGX-SGY plane
             $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=20 -w 15 -m 1000 -x 2000
                
    were, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate system and its size were specified.
-   
- 12) You can also set the center and thickness in the line-of-sight of the view. So, for example, if you are looking at an SGX-SGY view with —SGX=0 —SGY=8 -w 16 then maybe you want to look in the SGZ direction centered at -8 and thickness 4. The following command satisfies your conditions
+ 
+ 12) You can also set the center and thickness in the line-of-sight of the view. So, for example, if you are looking at an SGX-SGY view with —SGX=0 —SGY=8 -w 16 then maybe you want to look in the SGZ direction centered at -8 and thickness 4. The following command satisfies your conditions
  
             $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=0 --SGY=8 -w 16 --SGZ=-8 --ZT=4
 
