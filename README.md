@@ -170,10 +170,10 @@ In this plot, each point represents a group and the big circles are the halos of
 
 Symbols are:
 
- 1) Filled points: groups in super-groups
- 2) Open point: groups not in any super-group
- 3) filled boxes: single galaxies associated with a supergroups
- 4) crosses (x): single galaxies not associated with anything
+ 1) Filled points: groups in super-groups
+ 2) Open point: groups not in any super-group
+ 3) filled boxes: single galaxies associated with a supergroups
+ 4) crosses (x): single galaxies not associated with anything
 
 By clicking on each point you can see the group projected radius resented by R2t. For example, in the above plot, the red star shows the center of the Virgo cluster and the dashed red circle is its projected second turnaround radius. 
 
@@ -191,11 +191,11 @@ By clicking on each point, you can get some relevant information in the terminal
 
 Here is the meaning of the numeric flags:
 
- 1) flag = 5: Super-group head
- 2) flag = 4: group in a supergroup
- 3) flag = 3: single galaxy in a supergroup
- 4) flag = 2: single group NOT in any supergroup
- 5) flag = 0: single galaxy NOT in any group or super-group
+ 1) flag = 5: Super-group head
+ 2) flag = 4: group in a supergroup
+ 3) flag = 3: single galaxy in a supergroup
+ 4) flag = 2: single group NOT in any supergroup
+ 5) flag = 0: single galaxy NOT in any group or super-group
 
  
 ## Dependencies: <a name="dependencies"></a> 
