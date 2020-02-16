@@ -233,7 +233,7 @@ This is the list of the python packages you need.
    - **tkinter**: This is the heart of the visualization engine. Find more about it here: https://docs.python.org/3/library/tkinter.html
    
 
-**Note:** *tkinter* might not be installed using *pip*. So, you need to install it on your system separately. On *Ubuntu*, you can use the following command:
+**Note:** *tkinter* might not be installed using `pip`. So, you may need to install it on your system separately. On *Ubuntu*, you can use the following command:
 
 
             sudo apt-get install python3-tk
