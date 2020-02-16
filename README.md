@@ -89,12 +89,15 @@ Virgo is the largest group at the center and color-coded in yellow. All groups a
  7) Use the yes/no box in the bottom right corner to change the color scheme.
  
  8) Click on each point (galaxy) to chose it and get some relevant information in the terminal. *pgc* is the galaxy ID. *flag* equals 1 for galaxies in a group and 0 for a single galaxy. *ra*, *dec* *SGL* and *SGB* are the Equatorial and Supergalactic coordinates of the chosen galaxy. *Ks* is the magnitude, *Vls* is the radial velocity in km/s, *dcf2* is the distance in Mpc, *mDist* is the average group distance and *mDistErr* is the uncertainty of the average group distance. *nest* is the pgc ID of the most luminous galaxy in the group. *objname* is the galaxy other name.
- 
+
+ 
 ![terminal](https://user-images.githubusercontent.com/13570487/74585318-a9c36680-4f98-11ea-8bae-ec92acc95da5.png)
+ 
  
  9) If the chosen galaxy is in a group, a new window pops out and displays the radial velocity distribution of all group members. See the following example for the velocity distribution of galaxies in the group whose brightest galaxy is PGC 42734. The dashed black line is the average radial velocity and red dotted lines denote the 1-sigma borders. *d* is the evaluated average distance of the group. 
 
 ![Velocity_Distribution](https://user-images.githubusercontent.com/13570487/74585332-be9ffa00-4f98-11ea-8fb6-11f79e8ef4d6.png)
+ 
  
  10) If you use the **-G** command flag, you would be able to overplot the 6.8-degree circle around Virgo and also the divider line. Using this flag for other regions does not have any effect. See the following plot.
  
@@ -104,7 +107,8 @@ Virgo is the largest group at the center and color-coded in yellow. All groups a
  
 ![skyplot_demo](https://user-images.githubusercontent.com/13570487/74585771-bac2a680-4f9d-11ea-87c8-ed7857f16474.png)
 
- You can run *skyplot_group* and *skyplot_supergroup* with the appropriate flags to generate plots in SGX-SGY-SGZ coordinates. For example
+ 
+You can run *skyplot_group* and *skyplot_supergroup* with the appropriate flags to generate plots in SGX-SGY-SGZ coordinates. For example
  
             $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  -x 3500
                
