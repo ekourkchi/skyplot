@@ -1,7 +1,10 @@
 # skyplot
-Tools to visualize the 2D sky projection of groups and associations discussed in Kourkchi and Tully (2017, ApJ, 843, 16), Galaxy Groups Within 3,500 km/s. 
+Tools to visualize the 2D sky projection of groups and associations discussed in *Kourkchi and Tully (2017, ApJ, 843, 16)*, **Galaxy Groups Within 3,500 km/s**. 
 
 Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
+
+![groups_sphere](https://user-images.githubusercontent.com/13570487/74597701-b390ac80-5020-11ea-9a7f-c6ab7529604f.png)
+
 
 ## Table of contents
 1. [Visulaizing Galaxy Groups (skyplot_group.py)](#skyplot_group)
@@ -148,7 +151,7 @@ In this case, the projection is automatically detected to be on an SGX-SGY plane
  
 ## Visulaizing Galaxy Groups Associations: **skyplot_supergroup.py** <a name="skyplot_supergroup"></a> 
 
-Associations (supergroups) are ensembles of galaxy groups that are within the first turnaround radius of the enclosed mass. For more details on the physical meanings and definitions please refer to Kourkchi and Tully (2017, ApJ, 843, 16): http://adsabs.harvard.edu/abs/2017ApJ...843...16K
+Associations (supergroups) are ensembles of galaxy groups that are within the first turnaround radius of the enclosed mass. For more details on the physical meanings and definitions please refer to *Kourkchi and Tully (2017, ApJ, 843, 16)*: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
 
    - How to run (example). The following diagram is the output of the code for the Virgo cluster, using this command:
