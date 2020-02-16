@@ -3,11 +3,11 @@ Tools to visulaize the 2D sky projection of groups and associations discusses in
 
 Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 
-# Table of contents
-1. [Introduction](#introduction)
+## Table of contents
+1. [Visulaizing Galaxy Groups (skyplot_group.py)](#introduction)
 
 
-## Visulaizing Galaxy Groups: **skyplot_group.py** <a name="introduction"></a>
+## Visulaizing Galaxy Groups: **skyplot_group.py** <a name="skyplot_group.py"></a>
    
    - How to run (example):
    
