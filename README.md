@@ -16,18 +16,16 @@ Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
    - How to run (example):
    
       Looking at the direction of the *Virgo* cluster, in *Supergalactic* coordinate
-   
+ 
             $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50
     
-   - How to get help: 
-   
-   
+   - How to get help:
+ 
             $ python skyplot_group.py -h 
     
    - Commnad line options:
-   
-   
-              -h, --help            show this help message and exit
+ 
+            -h, --help            show this help message and exit
               -a ALPHA, --alpha=ALPHA
                                     right ascension of the coordinate system center
                                     [degree]
@@ -59,8 +57,8 @@ Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 ### Demo (Virgo cluster SGL=102 and SGB=-2) <a name="demo"></a>
 
 The following diagram is the output of the code for the Virgo cluster, using the following command:
-
-         $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50
+ 
+            $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50
 
 
 Virgo is the largest group at the center and color-coded in yellow. All groups are color-coded based on their average radial velocities, i.e. V_ls. The legend on the right shows that color code. The box on the left shows the coordinate of the sky where the mouse pointer is. Each point is a galaxy and dashed circles represent the 2D projected border of groups. Clicking on each galaxy prints out information about the galaxy its associated galaxy in the terminal.
@@ -77,8 +75,8 @@ Virgo is the largest group at the center and color-coded in yellow. All groups a
  3) **show all** and **set** buttons can be used alternatively to either display all the objects or to go back to the initial velocity setup.
  
  4) You can also enter radial velocity limits on the command line using **-m** and **-x** flags. See the following examples to only display galaxy with radial velocities between 1,000 and 2,000 km/s:
- 
-          $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50 -m 1000 -x 2000
+ 
+            $ python skyplot_group.py -f all.iter.2.v41.group -c supergalactic -a 102 -d -2 w 50 -m 1000 -x 2000
 
               
  5) Use the yellow button in the left box **(Reset View)** to go back the view that was originally set in the command line
@@ -104,22 +102,20 @@ Virgo is the largest group at the center and color-coded in yellow. All groups a
 ![skyplot_demo](https://user-images.githubusercontent.com/13570487/74585771-bac2a680-4f9d-11ea-87c8-ed7857f16474.png)
 
  You can run *skyplot_group* and *skyplot_supergroup* with the appropriate flags to generate plots in SGX-SGY-SGZ coordinates. For example
- 
-
-           $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  -x 3500
+ 
+            $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  -x 3500
                
 plots everything up to Vls=3500 km/s in SGX-SGY system by default. Also, you can specify the center of the plot and its size. In the following case **-w 15** means 15 Mpc.
 In this case, the projection is automatically detected to be on an SGX-SGY plane.
-   
-   
-           $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=15 -w 15
+ 
+            $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=15 -w 15
    
    If you specify all tree SGX, SGY and SGZ coordinates of the center, you need to use -j flag to specify your desired projection. This is explained below.
-   
-           $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  -m 1000 -x 2000 -j 3
+ 
+            $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  -m 1000 -x 2000 -j 3
                   
   The options you can use after -j are as follows:
-  
+ 
             1  - SGX-SGY                      
             2  - SGX-SGZ
             3  - SGY-SGZ                      
@@ -129,21 +125,20 @@ In this case, the projection is automatically detected to be on an SGX-SGY plane
             30 - SGZ-SGY
 
   **Note**: You can set either the velocity range or the center of the coordinate system when working in Cartesian coordinates. Using a combination of both is also possible. See this example:
-  
-  
-           $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=20 -w 15 -m 1000 -x 2000
+ 
+            $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=10 --SGY=20 -w 15 -m 1000 -x 2000
                
    were, Vmin=1000 km/s and Vmax=2000 km/s, while the center of the coordinate system and its size were specified.
    
  12) You can also set the center and thickness in the line-of-sight of the view. So, for example, if you are looking at an SGX-SGY view with —SGX=0 —SGY=8 -w 16 then maybe you want to look in the SGZ direction centered at -8 and thickness 4. The following command satisfies your conditions
- 
-           $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=0 --SGY=8 -w 16 --SGZ=-8 --ZT=4
+ 
+            $ python skyplot_group.py -f all.iter.2.v41.group -c cartesian  --SGX=0 --SGY=8 -w 16 --SGZ=-8 --ZT=4
 
  When you specify the thickness parameter (**--ZT** above), you don't need to specify the projection direction. If you happen to specify the projection direction and it's incompatible with the specified projection, it ignores the thickness parameter. **Note:** Command line is NOT sensitive to the given order of parameters.
 
  This is the list of all thickness parameters you can use.
  
-           --XT=XT    X-axis thickness (Mpc)
+            --XT=XT    X-axis thickness (Mpc)
             --YT=YT    Y-axis thickness (Mpc)
             --ZT=ZT    Z-axis thickness (Mpc)
 
