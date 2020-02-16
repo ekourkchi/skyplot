@@ -97,16 +97,19 @@ Virgo is the largest group at the center and color-coded in yellow. All groups a
  
  9) If the chosen galaxy is in a group, a new window pops out and displays the radial velocity distribution of all group members. See the following example for the velocity distribution of galaxies in the group whose brightest galaxy is PGC 42734. The dashed black line is the average radial velocity and red dotted lines denote the 1-sigma borders. *d* is the evaluated average distance of the group. 
 
+ 
 ![Velocity_Distribution](https://user-images.githubusercontent.com/13570487/74585332-be9ffa00-4f98-11ea-8fb6-11f79e8ef4d6.png)
 
 
  10) If you use the **-G** command flag, you would be able to overplot the 6.8-degree circle around Virgo and also the divider line. Using this flag for other regions does not have any effect. See the following plot.
- 
+ 
+ 
 ![Virgo1](https://user-images.githubusercontent.com/13570487/74585632-d9c03900-4f9b-11ea-9af6-5a53ad5e84c6.jpeg)
 
 
  11) Skyplot enables you to make plots in Cartesian coordinates. Skyplot needs to use distances to calculate SGX, SGY, and SGZ, and for most cases, it uses some sort of measured distances. Either galaxies have directly measured distances or they have some associated distances through the group they belong to. If there is no measured distance available, it uses Hubble distances. 
- 
+
+
 ![skyplot_demo](https://user-images.githubusercontent.com/13570487/74585771-bac2a680-4f9d-11ea-87c8-ed7857f16474.png)
 
  
