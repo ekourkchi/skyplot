@@ -8,6 +8,7 @@ Click here to see the paper: http://adsabs.harvard.edu/abs/2017ApJ...843...16K
 2. [Demo (Virgo Cluster)](#demo)
 3. [Features](#features)
 4. [Visulaizing Galaxy Groups Associations (skyplot_supergroup.py)](#skyplot_supergroup)
+5. [Dependencies](#dependencies)
 
 
 ## Visulaizing Galaxy Groups: **skyplot_group.py** <a name="skyplot_group"></a>
